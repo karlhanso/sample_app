@@ -1,13 +1,15 @@
   source 'https://rubygems.org'
 
   ruby '2.1.2'
-
+ 
 
   #ruby-gemset=railstutorial_rails_4_0
-
-
-  gem 'rails', '4.0.5'
+  group :assets do
+     
+  end
   gem 'bootstrap-sass', '2.3.2.0'
+  gem 'rails', '4.0.5'
+ 
   gem 'sprockets', '2.11.0'
   gem 'bcrypt-ruby', '3.1.2'
   gem 'faker', '1.1.2'
